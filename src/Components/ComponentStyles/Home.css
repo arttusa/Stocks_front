@@ -1,0 +1,138 @@
+.Loading {
+  margin-left: 45%;
+  margin-top: 24%;
+}
+
+.Githublogo {
+  position: absolute;
+  margin-top: 1.3%;
+  right: 12%;
+}
+
+.Container {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 16em;
+  margin-bottom: 100px;
+}
+
+.Headers {
+  width: 100%;
+  font-family: monospace;
+  font-size: 325%;
+  justify-content: center;
+  display: flex;
+  align-items: center; 
+}
+
+.Stockpercentage {
+  margin-left: 4%;   
+  font-size: 70%;
+
+}
+
+.Stocklist ul {
+  list-style-type: none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.Stocklist {
+  overflow-y: scroll;
+  /*overflow-x: hidden;*/
+  width: 17%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid grey;
+}
+
+.Stocklist li {
+  width: 100%;
+  background-color: #EAE1E1;
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+.Listobject {
+  height: 4em;
+  width: 90%;
+  background-color: #EAE1E1;
+  border: 0px;
+  outline: none;
+  text-align: left;
+  font-size: 80%;
+  padding-left: 5%;
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  height: 0px;
+}
+
+.Listobject:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Deletebutton {  
+  fill: grey !important;
+  height: 1.3em !important;
+  display: inline-block !important;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+  font-size: 1.3rem !important;
+  flex-shrink: 0 !important;
+  cursor: pointer !important;
+  align-self: center;
+  outline: none;
+  padding-right: 3%;
+}
+
+.Addstock {
+  display: flex;
+  margin-top: -5%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.Addstock p {
+  font-size: 160%;
+  font-family: monospace;
+  margin-top: 3%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 325%;
+  font-weight: normal;
+  font-family: monospace;
+}
+
+.Mainstarter {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50%;
+  margin-left: 17%;
+  margin-top: 5%;
+  padding: 4% 8%;
+  height: 17em;
+}
+
+.AddstockStarter {
+  display: flex;
+  margin-top: 5%;
+}
+
+.AddstockStarter p {
+  font-size: 160%;
+  font-family: monospace;
+}
+
+.Infobox p {
+  font-size: 150%;
+  font-family: monospace;
+}
+
+ 

@@ -1,0 +1,33 @@
+
+
+
+.Inputsection {
+    display: flex;
+    margin: 5% 2%;
+    align-items: center;
+    font-size: 14px;
+}
+
+.Infotext {
+    font-family: monospace;
+    font-size: x-large;
+    margin-left: 3%;
+}
+
+
+/* Textfield */
+.MuiFormControl-root {
+    border: 0; 
+    margin: 0% 1% !important;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    min-width: 0;
+    flex-direction: column;
+    vertical-align: top;
+ }
+
+div {
+    display: block;
+    
+}

@@ -5,8 +5,7 @@ import Chart from './Chart'
 import AutoCompleteText from './AutoCompleteText';
 import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
 import CircularProgress from '@material-ui/core/CircularProgress';
-import Githublogo from './Media/Githublogo.png';
-import Githublogo_hover from './Media/Githublogo_hover.png';
+import Githublogo from './Media/Githublogo.svg';
 
 /** Lasketaan annettujen arvojen muutos ja palautetaan luku prosentteina
  * 
@@ -226,9 +225,7 @@ class Home extends React.Component {
         return (
           <>
             <a href="https://github.com/arttusa/Stocks" target="_blank" rel="noopener noreferrer">
-              <img className="Githublogo" src={Githublogo} alt="Github Logo"
-                onMouseOver={e => (e.currentTarget.src = Githublogo_hover)} 
-                onMouseOut={e => (e.currentTarget.src = Githublogo)} />
+              <img className="Githublogo" src={Githublogo} alt="Github Logo" />
             </a>
             {this.renderMain()}
           </>

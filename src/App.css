@@ -1,12 +1,11 @@
 .Wholepage {
   color: black;
-  margin: 3% 10%;
+  margin: 1% 4%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 0.01% 0%;
-  background-color: #EAE1E1;
-  overflow: hidden;
-  height: 39rem;
-
+  background-color: white;
+  overflow: scroll;
+  height: 94vh;
 }
 html {
   background-color: #858C9B;
@@ -14,12 +13,3 @@ html {
 
            
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
